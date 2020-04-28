@@ -11,8 +11,9 @@
     "express-handlebars": "^3.0.0",
     "mongoose": "^4.4.11",
     "morgan": "~1.9.1",
-    "serve-favicon": "~2.3.0"
+    "serve-favicon": "~2.3.0",
+    "handlebars": "^4.5.0"
   },
-  "author": "Henrique Araujo",
+  "author": "Caue Santos",
   "license": "ISC"
 }
