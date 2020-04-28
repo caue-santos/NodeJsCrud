@@ -1,0 +1,25 @@
+<section class="get">
+    <h3>Contatos cadastrados:</h3>
+    <div>
+        <table class="table">
+            <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nome</th>
+                <th>Email</th>
+                <th>Telefone</th>
+            </tr>
+            </thead>
+            <tbody>
+        {{# each items }}
+        <tr>
+            <td>ID: {{ this._id }}</td>
+		    <td>Nome: {{ this.nome }}</td>
+            <td>Email: {{ this.email }}</td>
+            <td>Telefone: {{ this.telefone }}</td>
+        </tr>
+        {{/each}}
+            </tbody>
+        </table>
+    </div>
+</section>
